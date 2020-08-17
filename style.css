@@ -1,0 +1,67 @@
+html {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font: "Raleway", sans-serif;
+  color: rgb(22, 22, 22);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  top: 15%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgb(128, 255, 240),
+    rgb(226, 98, 243)
+  ); /* Standard syntax */
+  width: 100%;
+  background-repeat: repeat-y;
+}
+
+h1 {
+  padding-top: 10vh;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(22, 22, 22);
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+h3 {
+  font-family: "Roboto Mono", monospace;
+  color: rgb(22, 22, 22);
+  text-align: center;
+  text-transform: none;
+  font-size: smaller;
+  letter-spacing: 0.01em;
+}
+
+footer {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(22, 22, 22);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0px 1.5rem 0px;
+}
+
+a {
+  color: rgb(151, 255, 243);
+  text-decoration: none;
+}
+
+#github {
+  filter: invert();
+  transform: translateY(5px);
+}
